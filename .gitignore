@@ -1,0 +1,6 @@
+*.pth
+*.mp4
+*.gif
+__pycache__/
+.vscode/
+*.egg-info/
