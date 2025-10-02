@@ -32,7 +32,7 @@ The `common` package contains the minimal dataset and rendering helpers required
 
 ```bash
 python main_simple_gcn_3dhp.py \
-  --data-root /path/to/AttnGCN \
+  --data-root /path/to/dataset \
   --mode 3dhp \
   --batch-size 64 \
   --epochs 60 \
@@ -48,7 +48,7 @@ Useful flags:
 
 ```bash
 python visualize_simple_gcn_3dhp.py \
-  --data-root /path/to/AttnGCN \
+  --data-root /path/to/dataset \
   --checkpoint checkpoints/simple_gcn.pth \
   --output demo.mp4 \
   --use-cuda
