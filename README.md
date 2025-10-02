@@ -1,6 +1,6 @@
 # Simple GCN Baseline for MPI-INF-3DHP
 
-This mini-project packages the lightweight training and visualization utilities we built on top of the original AttnGCN codebase. It provides two entry points:
+This mini-project packages the lightweight training and visualization utilities. It provides two entry points:
 
 - `main_simple_gcn_3dhp.py`: trains a 3-layer graph convolutional network on MPI-INF-3DHP 2D→3D pose lifting using the preprocessed `.npz` splits from the parent project.
 - `visualize_simple_gcn_3dhp.py`: runs inference with a saved checkpoint and renders predictions versus ground truth as an animation (falls back to GIF when ffmpeg is not available).
