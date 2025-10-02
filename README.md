@@ -5,6 +5,10 @@ This mini-project packages the lightweight training and visualization utilities 
 - `main_simple_gcn_3dhp.py`: trains a 3-layer graph convolutional network on MPI-INF-3DHP 2D→3D pose lifting using the preprocessed `.npz` splits from the parent project.
 - `visualize_simple_gcn_3dhp.py`: runs inference with a saved checkpoint and renders predictions versus ground truth as an animation (falls back to GIF when ffmpeg is not available).
 
+## Dataset
+
+Processed MPI-INF-3DHP dataset is available via the [google drive link](https://drive.google.com/file/d/1yHAwqSxp9x2RgCvRJEQfg1t17FYuMb8c/view?usp=sharing)
+
 ## Project Layout
 
 ```
